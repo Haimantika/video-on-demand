@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Video on Demand",
-  description: "A simple video on demand library",
+  description: "A video on demand library built on DigitalOcean.",
 }
 
 export default function RootLayout({
