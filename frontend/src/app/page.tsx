@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">Video on Demand Library</h1>
         <p className="max-w-[700px] text-muted-foreground">
-          Store and access your favorite videos in one place. Add new videos to your library and watch them anytime.
+         Video library is a collection of videos that you can watch on demand. You can add new videos to the library, browse the library, and watch videos.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Button asChild>
