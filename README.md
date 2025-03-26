@@ -2,6 +2,16 @@
 
 A scalable video-on-demand platform built with Next.js and hosted on DigitalOcean droplets. This project demonstrates how to build and scale a video streaming application, with performance benchmarks comparing different droplet configurations.
 
+## Here's how the application looks:
+<img width="1728" alt="Screenshot 2025-03-26 at 6 17 12 PM" src="https://github.com/user-attachments/assets/8bdfa3c5-3376-4161-9afd-819c9cf9baca" />
+
+<img width="1728" alt="Screenshot 2025-03-26 at 6 17 43 PM" src="https://github.com/user-attachments/assets/0b5a3102-3c3a-4765-851c-74250ac5ef89" />
+
+
+<img width="1728" alt="Screenshot 2025-03-26 at 6 20 01 PM" src="https://github.com/user-attachments/assets/2d87a9c1-b978-419b-a6c6-9657faa2c915" />
+
+
+
 ## Features
 
 - Next.js frontend and API
