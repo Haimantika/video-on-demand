@@ -34,6 +34,8 @@ export default function VideoPlayer({ videoUrl }: VideoPlayerProps) {
         videoId = videoUrl.split("youtu.be/")[1].split("?")[0]
       } else if (videoUrl.includes("youtube.com/embed/")) {
         videoId = videoUrl.split("youtube.com/embed/")[1].split("?")[0]
+      } else if (videoUrl.includes("youtube.com/live/")) {
+        videoId = videoUrl.split("youtube.com/live/")[1].split("?")[0]
       }
 
       if (videoId) {
