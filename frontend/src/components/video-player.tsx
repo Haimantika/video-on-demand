@@ -62,7 +62,7 @@ export default function VideoPlayer({ videoUrl }: VideoPlayerProps) {
     console.error("Video error for URL:", videoUrl)
   }
 
-  if (isYouTube || isVimeo) {
+  if ((isYouTube || isVimeo) && embedUrl) {
     return (
       <div className="aspect-video w-full">
         <iframe
